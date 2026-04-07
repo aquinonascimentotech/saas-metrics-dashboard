@@ -1,153 +1,86 @@
 # 📊 SaaS Metrics Dashboard
 
-Um dashboard profissional de métricas SaaS desenvolvido com React, TypeScript e Recharts. Este projeto demonstra habilidades em desenvolvimento front-end, visualização de dados e compreensão de métricas de negócio essenciais para empresas SaaS.
+Dashboard moderno de métricas SaaS com design glassmorphism, gradientes animados e gráficos interativos em tempo real.
 
-## 🌐 Demo ao Vivo
+## 🌐 [Ver Demo em Produção →](https://saas-metrics-dashboard-kappa.vercel.app/)
 
-**🚀 [Ver Demo em Produção](https://saas-metrics-dashboard-kappa.vercel.app/)**
+![React](https://img.shields.io/badge/React-19-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5+-blue) ![Tailwind](https://img.shields.io/badge/Tailwind-3-38bdf8) ![Vercel](https://img.shields.io/badge/Deploy-Vercel-000)
 
-![Dashboard Preview](https://img.shields.io/badge/Status-Complete-success)
-![React](https://img.shields.io/badge/React-18+-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-5+-blue)
-![Tailwind](https://img.shields.io/badge/TailwindCSS-3+-38bdf8)
-![Vercel](https://img.shields.io/badge/Deployed-Vercel-000000)
+## 🎯 Recursos
 
-## 🎯 Sobre o Projeto
+- **Métricas em tempo real** — MRR, Churn Rate, CAC, LTV
+- **Gráficos interativos** — Área, linha, barras com animações suaves
+- **Design moderno** — Glassmorphism, gradientes, blur effects
+- **Totalmente responsivo** — Mobile-first approach
+- **Performance otimizada** — Vite + React 19
 
-Este dashboard foi criado para demonstrar:
-- ✅ Compreensão de métricas cruciais de SaaS (MRR, Churn, CAC, LTV)
-- ✅ Habilidades em visualização de dados com gráficos interativos
-- ✅ Design profissional e responsivo
-- ✅ Código limpo e bem organizado em TypeScript
-- ✅ Uso de dados mockados realistas
+## 🚀 Stack Tecnológica
 
-## 🚀 Tecnologias Utilizadas
+- **Next.js 15** / React 19
+- **TypeScript**
+- **Tailwind CSS v3**
+- **Recharts** — Biblioteca de gráficos
+- **Lucide React** — Ícones modernos
+- **Vite** — Build tool
 
-- **React 18+** - Biblioteca JavaScript para interfaces
-- **TypeScript** - Superset tipado do JavaScript
-- **Vite** - Build tool moderna e rápida
-- **Recharts** - Biblioteca de gráficos para React
-- **Tailwind CSS** - Framework CSS utility-first
-- **Lucide React** - Ícones modernos e leves
+## ⚡ Instalação Rápida
 
-## 📈 Métricas Implementadas
-
-### KPIs Principais
-- **MRR (Monthly Recurring Revenue)** - Receita recorrente mensal
-- **Usuários Ativos** - Base de usuários crescendo
-- **Churn Rate** - Taxa de cancelamento (quanto menor, melhor)
-- **Novos Clientes** - Aquisição mensal de clientes
-
-### Gráficos Detalhados
-- 📊 Crescimento de MRR ao longo do tempo
-- 💰 Receita total acumulada
-- 📉 Evolução da taxa de Churn
-- 👥 Usuários ativos mensais
-- ➕ Novos clientes por mês
-
-### Insights de Negócio
-- Crescimento de 208% no MRR em 12 meses
-- Redução de Churn de 5.2% para 2.2%
-- Aumento de 400% na aquisição de clientes
-
-## 🛠️ Instalação e Execução
-
-### Pré-requisitos
-- Node.js 18+ instalado
-- npm ou yarn
-
-### Passos
-
-1. **Clone o repositório**
 ```bash
+# Clone o repositório
 git clone https://github.com/aquinonascimentotech/saas-metrics-dashboard.git
-cd saas-metrics-dashboard
-```
 
-2. **Instale as dependências**
-```bash
+# Instale as dependências
 npm install
-```
 
-3. **Execute o projeto em modo desenvolvimento**
-```bash
+# Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-4. **Acesse no navegador**
-```
-http://localhost:5173
-```
+Acesse [http://localhost:5173](http://localhost:5173) no navegador.
 
-### Build para Produção
+## 📦 Build para Produção
 
 ```bash
 npm run build
 npm run preview
 ```
 
+## 📈 Métricas Implementadas
+
+| Métrica | Descrição |
+|---------|-----------|
+| **MRR** | Monthly Recurring Revenue com crescimento de +208% |
+| **Churn Rate** | Taxa de cancelamento otimizada (2.2%) |
+| **Usuários Ativos** | Base crescente com +15.2K usuários |
+| **Novos Clientes** | Aquisição mensal com aumento de +400% |
+
 ## 📁 Estrutura do Projeto
 
 ```
-saas-metrics-dashboard/
-├── src/
-│   ├── components/         # Componentes reutilizáveis
-│   │   ├── Card.tsx       # Sistema de cards base
-│   │   ├── MetricCard.tsx # Cards de KPIs
-│   │   └── ChartCard.tsx  # Cards com gráficos
-│   ├── data/              # Dados mockados
-│   │   └── mockData.ts    # Métricas SaaS realistas
-│   ├── lib/               # Utilitários
-│   │   └── utils.ts       # Funções auxiliares
-│   ├── App.tsx            # Componente principal
-│   └── index.css          # Estilos globais
-├── package.json
-└── README.md
+src/
+├── components/
+│   ├── Card.tsx           # Sistema de cards base
+│   ├── MetricCard.tsx     # KPIs com indicadores
+│   └── ChartCard.tsx      # Gráficos interativos
+├── data/
+│   └── mockData.ts        # Métricas e dados
+├── lib/
+│   └── utils.ts           # Funções auxiliares
+└── App.tsx                # Componente principal
 ```
-
-## 💡 Destaques Técnicos
-
-### Componentização
-- Componentes reutilizáveis e bem tipados
-- Separação clara de responsabilidades
-- Props interfaces bem definidas
-
-### Design Responsivo
-- Layout adaptável para mobile, tablet e desktop
-- Grid system flexível
-- Suporte a tema claro e escuro
-
-### Visualização de Dados
-- Gráficos interativos com tooltips
-- Múltiplos tipos de visualização (linha, área, barras)
-- Formatação profissional de valores monetários
-
-### Boas Práticas
-- TypeScript para type safety
-- Código limpo e documentado
-- Organização modular
-- Performance otimizada
 
 ## 🎨 Features
 
-- ✨ Design moderno e profissional
-- 📱 Totalmente responsivo
-- 🌙 Suporte a dark mode
-- 📊 5 tipos diferentes de gráficos
-- 🎯 KPIs com indicadores de tendência
-- 💹 Animações suaves
-- 🔄 Dados mockados realistas
+- ✨ Animações de entrada com fade-in
+- 🔄 Elementos flutuantes decorativos
+- 🌈 Gradientes dinâmicos animados
+- 💎 Glass effect com backdrop blur
+- 📊 Tooltips personalizados
+- 🎯 Hover states avançados
 
-## 📊 Dados Mockados
+---
 
-Os dados utilizados representam uma empresa SaaS em crescimento saudável:
-- Período: Mai/2025 - Abr/2026 (12 meses)
-- Crescimento consistente de MRR
-- Redução progressiva de Churn
-- Aumento acelerado de usuários ativos
-- Padrões realistas de sazonalidade
-
-## 🎯 Por Que Este Projeto se Destaca?
+**Desenvolvido por [Aquino Nascimento Tech](https://github.com/aquinonascimentotech)**
 
 ### Para Recrutadores Técnicos
 - Demonstra conhecimento sólido de React e TypeScript
