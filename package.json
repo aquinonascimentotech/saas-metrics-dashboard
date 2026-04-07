@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Dashboard profissional de métricas SaaS com React, TypeScript e Recharts - Desenvolvido por Aquino Nascimento Tech",
+  "description": "Dashboard de métricas SaaS | @aquinonascimentotech",
   "author": "Aquino Nascimento Tech <https://github.com/aquinonascimentotech>",
   "license": "MIT",
   "repository": {
