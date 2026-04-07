@@ -165,7 +165,7 @@ function App() {
         {/* Footer */}
         <footer className="mt-12 text-center text-sm text-gray-500 dark:text-gray-400 pb-8">
           <p>
-            Dashboard desenvolvido com React, TypeScript e Recharts |{' '}
+            Dashboard desenvolvido por{' '}
             <a
               href="https://github.com/aquinonascimentotech"
               target="_blank"
