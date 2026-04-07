@@ -81,5 +81,3 @@ src/
 ---
 
 **Desenvolvido por [Aquino Nascimento Tech](https://github.com/aquinonascimentotech)**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Felipe%20Aquino-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipedeaquinonascimento/)
