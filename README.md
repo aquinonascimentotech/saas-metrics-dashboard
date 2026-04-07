@@ -82,42 +82,4 @@ src/
 
 **Desenvolvido por [Aquino Nascimento Tech](https://github.com/aquinonascimentotech)**
 
-### Para Recrutadores Técnicos
-- Demonstra conhecimento sólido de React e TypeScript
-- Mostra habilidade em trabalhar com bibliotecas de visualização
-- Código limpo e bem organizado
-
-### Para Product Managers
-- Entende métricas cruciais de SaaS
-- Sabe quais KPIs importam para o negócio
-- Capacidade de transformar dados em insights
-
-### Para Startups SaaS
-- Conhece o vocabulário do produto
-- Entende growth e retenção
-- Pensa além do código, considera o negócio
-
-## 🔮 Próximas Melhorias
-
-- [ ] Integração com API real
-- [ ] Filtros de data personalizados
-- [ ] Exportação de relatórios em PDF
-- [ ] Comparação entre períodos
-- [ ] Métricas adicionais (LTV, CAC, Payback)
-- [ ] Dashboard de cohort analysis
-
-## 👨‍💻 Autor
-
-**Felipe Aquino Nascimento**
-- GitHub: [@aquinonascimentotech](https://github.com/aquinonascimentotech)
-- LinkedIn: [Seu LinkedIn](https://linkedin.com/in/seu-perfil)
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Sinta-se livre para usar como referência ou base para seus próprios projetos.
-
----
-
-⭐ Se este projeto foi útil, considere dar uma estrela!
-
-**Desenvolvido com 💙 para demonstrar habilidades em desenvolvimento full-stack e compreensão de métricas de negócio.**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Felipe%20Aquino-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipedeaquinonascimento/)
