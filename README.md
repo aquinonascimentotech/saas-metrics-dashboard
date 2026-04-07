@@ -2,10 +2,15 @@
 
 Um dashboard profissional de métricas SaaS desenvolvido com React, TypeScript e Recharts. Este projeto demonstra habilidades em desenvolvimento front-end, visualização de dados e compreensão de métricas de negócio essenciais para empresas SaaS.
 
+## 🌐 Demo ao Vivo
+
+**🚀 [Ver Demo em Produção](https://saas-metrics-dashboard-kappa.vercel.app/)**
+
 ![Dashboard Preview](https://img.shields.io/badge/Status-Complete-success)
 ![React](https://img.shields.io/badge/React-18+-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5+-blue)
 ![Tailwind](https://img.shields.io/badge/TailwindCSS-3+-38bdf8)
+![Vercel](https://img.shields.io/badge/Deployed-Vercel-000000)
 
 ## 🎯 Sobre o Projeto
 
