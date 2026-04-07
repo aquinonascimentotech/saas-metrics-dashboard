@@ -49,10 +49,10 @@ npm run preview
 
 | Métrica | Descrição |
 |---------|-----------|
-| **MRR** | Monthly Recurring Revenue com crescimento de +208% |
+| **MRR** | Monthly Recurring Revenue com crescimento de +42% |
 | **Churn Rate** | Taxa de cancelamento otimizada (2.2%) |
 | **Usuários Ativos** | Base crescente com +15.2K usuários |
-| **Novos Clientes** | Aquisição mensal com aumento de +400% |
+| **Novos Clientes** | Aquisição mensal com aumento de +67% |
 
 ## 📁 Estrutura do Projeto
 

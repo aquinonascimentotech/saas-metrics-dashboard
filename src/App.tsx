@@ -125,7 +125,7 @@ function App() {
                   Crescimento Sólido
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                  MRR cresceu 208% nos últimos 12 meses, com tendência
+                  MRR cresceu 42% nos últimos 12 meses, com tendência
                   consistente de crescimento.
                 </p>
               </div>
@@ -155,7 +155,7 @@ function App() {
                   Aquisição Acelerada
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                  Novos clientes aumentaram 400% no período, com CAC otimizado.
+                  Novos clientes aumentaram 67% no período, com CAC otimizado.
                 </p>
               </div>
             </div>
